@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Augusto Mate — Modern Web Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Augusto Mate">
+  <meta name="description" content="Portfolio and demo site showcasing responsive, accessible front-end with HTML, CSS and JavaScript.">
+  <meta name="theme-color" content="#0b0c10">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
+  <meta property="og:title" content="Augusto Mate — Web Portfolio">
+  <meta property="og:description" content="Responsive, accessible multipage site built with modern HTML, CSS and JavaScript.">
+  <meta property="og:image" content="images/hero-photo.jpg">
+  <meta property="og:type" content="website">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header" role="banner">
+    <a class="logo" href="index.html" aria-label="Home">
+      <img src="images/logo.svg" alt="" width="34" height="34" aria-hidden="true">
+      <span class="brand">Augusto Mate</span>
+    </a>
+    <button id="navToggle" class="icon-btn" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+      <span class="sr-only">Menu</span>
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="24" height="24"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <nav id="siteNav" class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/services.html">Services</a></li>
+        <li><a href="pages/gallery.html">Gallery</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="themeToggle" class="icon-btn" aria-pressed="false" aria-label="Toggle theme">
+      <span class="sr-only">Toggle theme</span>
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="12" r="5" fill="currentColor"/></svg>
+    </button>
+  </header>
+
+  <main id="content">
+    <section class="hero hero-with-photo" style="--bg:url('images/hero-bg.svg')">
+      <div class="hero-text reveal">
+        <h1>Creativity + Technology</h1>
+        <p>Accessible, responsive, and high-performance interfaces.</p>
+        <a class="btn" href="pages/services.html">Explore services</a>
+      </div>
+      <picture class="hero-photo reveal">
+        <source srcset="images/hero-photo.webp" type="image/webp">
+        <img src="images/hero-photo.jpg" alt="Augusto Mate smiling in front of a laptop" width="600" height="400" loading="lazy">
+      </picture>
+    </section>
+
+    <section class="features reveal" aria-label="Highlights">
+      <article class="card"><h2>Semantics</h2><p>HTML5 with proper landmarks and ARIA only where it helps.</p></article>
+      <article class="card"><h2>Modern CSS</h2><p>Lightweight design system, fluid typography, and responsive grid.</p></article>
+      <article class="card"><h2>Interactivity</h2><p>Menus, theme toggle, slider, lightbox, and elegant validation.</p></article>
+    </section>
+
+    <section class="slider-wrap reveal" aria-label="Showcase">
+      <div class="slider" tabindex="0" aria-roledescription="carousel" aria-live="polite">
+        <div class="slides">
+          <figure class="slide"><img src="images/slide-1.svg" alt="Performance-first"><figcaption>Performance-first</figcaption></figure>
+          <figure class="slide"><img src="images/slide-2.svg" alt="Responsive Design"><figcaption>Responsive Design</figcaption></figure>
+          <figure class="slide"><img src="images/slide-3.svg" alt="Accessibility"><figcaption>Accessibility</figcaption></figure>
+        </div>
+        <div class="slider-controls"><button class="prev" aria-label="Previous">‹</button><button class="next" aria-label="Next">›</button></div>
+        <div class="dots" role="tablist" aria-label="Slider pages"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>© <span id="year"></span> Augusto Mate. All rights reserved.</p>
+    <nav class="footer-links" aria-label="Deployment">
+      <a class="pill link-gh" href="https://augustomate.github.io/augusto-mate-site/" target="_blank" rel="noopener">GitHub Pages</a>
+      <a class="pill link-netlify" href="https://augusto-mate-site.netlify.app/" target="_blank" rel="noopener">Netlify</a>
+      <a class="pill link-vercel" href="https://augusto-mate-site.vercel.app/" target="_blank" rel="noopener">Vercel</a>
+    </nav>
+  </footer>
+</body>
+</html>
