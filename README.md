@@ -66,32 +66,33 @@ Built with semantic HTML5, modular CSS, and progressive JavaScript — optimized
 
 ## 📂 Project Structure
 
-/
-├── augusto-mate_web-development-final_v5.0.0/
-│   ├── index.html
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   ├── images/
-│   │   ├── favicon.svg
-│   │   ├── logo.svg
-│   │   ├── hero-photo.jpg
-│   │   ├── hero-photo.webp
-│   │   ├── hero-bg.svg
-│   │   ├── about-photo.webp
-│   │   ├── about-bg.svg
-│   │   ├── contact-bg.svg
-│   │   ├── gallery-bg.svg
-│   │   ├── slide-1.svg
-│   │   ├── slide-2.svg
-│   │   └── slide-3.svg
-│   ├── pages/
-│   │   ├── about.html
-│   │   ├── services.html
-│   │   ├── gallery.html
-│   │   └── contact.html
-│   │   └── credits.html
+augusto-mate_web-development-final_v5.0.0/
+├── index.html
+├── pages/
+│   ├── about.html
+│   ├── services.html
+│   ├── gallery.html
+│   ├── contact.html
+│   └── credits.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── images/
+│   ├── favicon.svg
+│   ├── logo.svg
+│   ├── hero-photo.webp
+│   ├── hero-photo.jpg
+│   ├── hero-bg.svg
+│   ├── about-photo.webp
+│   ├── about-photo.jpg
+│   ├── about-bg.svg
+│   ├── contact-bg.svg
+│   ├── gallery-bg.svg
+│   ├── gallery-bg.webp
+│   ├── site1.svg
+│   ├── site2.svg
+│   └── site3.svg
 ├── README.md
 ├── LICENSE.md
 ├── SITE_PLAN.md
