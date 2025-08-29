@@ -90,8 +90,8 @@ Built with semantic HTML5, modular CSS, and progressive JavaScript — optimized
 │   │   ├── about.html
 │   │   ├── services.html
 │   │   ├── gallery.html
-│   │   └── contact.html
-│   └── credits.html
+│   │   ├── contact.html
+│   │   └── credits.html
 ├── README.md
 ├── LICENSE.md
 ├── SITE_PLAN.md
