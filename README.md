@@ -65,7 +65,17 @@ Built with semantic HTML5, modular CSS, and progressive JavaScript — optimized
 ---
 
 ## 📂 Project Structure
-
+```
+/
+├─ index.html            
+├─ style.css             
+├─ script.js             
+├─ assets/
+│  └─ logo.svg
+│  └─ sounds/
+│     └─ click.mp3
+├─ README.md  
+```
 /
 ├── augusto-mate_web-development-final_v5.0.0/
 │   ├── index.html
