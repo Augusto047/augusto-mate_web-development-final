@@ -9,8 +9,8 @@ Built with semantic HTML5, modular CSS, and progressive JavaScript — optimized
 
 ## 🚀 Live Demo
 
-- 🌍 [GitHub Pages](https://augusto047.github.io/augusto-mate_web-development-final/)  
-- ⚡ [Netlify](https://augusto-mate-site.netlify.app)  
+- 🌍 [GitHub Pages](https://augusto047.github.io/web-development-v2-week-8-final-assignment/)  
+- ⚡ [Netlify](https://web-development-v2-week-8-final-ass.netlify.app)  
 - 🧭 [Vercel](https://web-development-v2-week-8-final-ass.vercel.app/)
 
 ---
