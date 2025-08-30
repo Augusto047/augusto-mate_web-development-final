@@ -1,4 +1,4 @@
-# 🌐 Augusto Mate — Web Development Final
+# 🌐 Augusto Mate — Web Development V2 Final
 
 ## 📄 Overview
 
@@ -11,7 +11,7 @@ Built with semantic HTML5, modular CSS, and progressive JavaScript — optimized
 
 - 🌍 [GitHub Pages](https://augusto047.github.io/augusto-mate_web-development-final/)  
 - ⚡ [Netlify](https://augusto-mate-site.netlify.app)  
-- 🧭 [Vercel](https://augusto-mate-site.vercel.app)
+- 🧭 [Vercel](https://web-development-v2-week-8-final-ass.vercel.app/)
 
 ---
 
